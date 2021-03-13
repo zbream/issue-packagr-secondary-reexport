@@ -12,8 +12,12 @@
     "importHelpers": true,
     "paths": {
       "my-library": [
-        "dist/my-library/my-library",
-        "dist/my-library"
+        "dist/my-library",
+        "projects/my-library/src/public-api"
+      ],
+      "my-library/*": [
+        "dist/my-library/*",
+        "projects/my-library/*/public-api"
       ]
     },
     "target": "es2015",

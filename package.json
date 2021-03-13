@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:lib": "ng build my-library",
+    "build:lib:prod": "ng build my-library --prod"
   },
   "private": true,
   "dependencies": {
