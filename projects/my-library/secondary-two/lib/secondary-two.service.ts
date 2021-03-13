@@ -1,8 +1,12 @@
 import { Injectable } from '@angular/core';
 
+import { SecondaryTwoInternalService } from './secondary-two-internal.service';
+
 @Injectable({
   providedIn: 'root',
 })
 export class SecondaryTwoService {
-  constructor() { }
+  constructor(
+    private internalService: SecondaryTwoInternalService,
+  ) { }
 }
